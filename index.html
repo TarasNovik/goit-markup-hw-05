@@ -49,8 +49,6 @@
                     <h1 class="title-hero">Effective Solutions<br>for Your Business
                     </h1>
                     <button class="button" type="button">Order Service</button>
-
-
                 </div>
             </section>
             <section class="section">
@@ -414,23 +412,32 @@
             </svg>
             <p class="form-title">Leave your contacts and we will call you back</p>
             <div class="form-tab">
-                <label class="label" for="">Name
-                    <input class="form-input" name="name" type="text" required>
-                </label>
-                <label class="label" for="">Phone
-                    <input class="form-input" name="phone" type="text" required>
-                </label>
-                <label class="label" for="">Email
-                    <input class="form-input" name="email" type="text" required>
-                </label>
-                <label class="label" for="">Comment<textarea class="contact-form-message" name="message" id=""
+                <div>
+                    <label class="label" for="input-name">Name</label>
+                    <input class="form-input" name="name" type="text" id="input-name" pattern="" title="" required>
+                </div>
+                <div>
+                    <label class="label" for="input-phone">Phone</label>
+                    <input class="form-input" name="phone" type="tel" id="input-phone" pattern="" title="" required>
+                </div>
+                <div>
+                    <label class="label" for="input-email">Email</label>
+                    <input class="form-input" name="email" type="text" id="input-email" pattern="" title="" required>
+                </div>
+                <div>
+                    <label class="label" for="input-message">Comment</label>
+                    <textarea class="contact-form-message" name="message" id="input-message" pattern="" title=""
                         placeholder="Text input"></textarea>
-                </label>
+                </div>
+
             </div>
-            <label class="lable-chekbox"><input type="checkbox" name="yes" required>I accept the terms and
-                conditions of
-                the <span class="police">Privacy
-                    Policy</span></label>
+            <div class="form-checkbox">
+                <input class="" type="checkbox" name="true" id="checkbox" value="true" required>
+
+                <label class="lable-chekbox" for="checkbox">I accept the terms and
+                    conditions of the <span class="police">Privacy
+                        Policy</span></label>
+            </div>
             <button type="submit" class="button-form">Send</button>
         </form>
 </body>

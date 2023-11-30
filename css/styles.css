@@ -271,6 +271,7 @@ img{
     .email{width: 360px;
         height: 40px;
         flex-shrink: 0;}
+        .form-checkbox{ width: 360px; height: 16px; display: inline-flex;}
         /* ADVANTAGES */
 .visually-hidden{ 
     position: absolute;
