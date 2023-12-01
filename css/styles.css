@@ -448,6 +448,15 @@ left: 0;
 width: 100%;
 height: 100%;
 background-color:rgba(46, 47, 66, 0.40);
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+transition: opacity 250ms linear, visibility 250ms linear;
+}
+.backdrop.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 /* modal window stiles */
 .modal { 
@@ -461,27 +470,29 @@ background-color:rgba(46, 47, 66, 0.40);
     border-radius: 4px;
 }
 .modal-close-btn{
-background-color: transparent;
+background-color: #E7E9FC;
 padding: 0;
-stroke: #111;
-fill:transparent;
-border: none;
+fill: black;
+border:1px rgba(3, 3, 3, 0.1);
 line-height: 0;
 position: absolute;
 top: 24px;
 right: 24px;
 border-radius: 50%;
+width: 24px;
+height: 24px;
+transition: fill 250ms linear, background-color 250ms linear ;
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
-stroke:#FCFCFC;
-fill: #4d5ae5;
+fill: white;
+
 background-color: #4d5ae5;
-border: #F4F4FD;
+
 }
 .modal-close-btn-icon{
     border-radius: 50%;
-    
+    background: transparent;
 }
 
 -----------------------------------------------------------------------
