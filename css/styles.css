@@ -440,21 +440,80 @@ img{
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* mail window */
+.mail-input-window {
+    display: flex;
+    width: 453px;
+    height: 80px;
+    margin-left: 80px;
+}
+.modal-footer-subscribe-label{
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+
+.subscribe-input{
+    display: flex;
+    flex-direction: column;
+}
+.modal-subscribe-input-email{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+    padding: 8px 16px;
+    background-color:transparent ;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid  #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.submit-button{
+    align-items: end;
+}
+.subscribe-buttom {
+    margin-left: 24px;
+    color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+
+    width: 165px;
+    height: 48px;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+}
+.subscribe-buttom:hover {
+background: #404BBF;
+}
         /* backdrop styles */
 .backdrop { z-index: 9999;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color:rgba(46, 47, 66, 0.40);
-opacity: 0;
-visibility: hidden;
-pointer-events: none;
-transition: opacity 250ms linear, visibility 250ms linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(46, 47, 66, 0.40);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms linear, visibility 250ms linear;
 }
 .backdrop.is-open{
-    opacity: 1;
+    opacity: 0;
     visibility: visible;
     pointer-events: auto;
 }
@@ -546,6 +605,12 @@ transition: fill 250ms linear, background-color 250ms linear ;
 fill: #4D5AE5;
 }
 .modal-form-comment{
+        color: rgba(46, 47, 66, 0.40);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.04em;
     width:100%;
     height: 120px;
     border-radius: 4px;
@@ -553,8 +618,82 @@ fill: #4D5AE5;
     background-color: transparent;
     padding: 8px 16px;
     resize: none;
-    transition: border-color 250ms linear ;
+    transition: border-color 250ms linear;
+    outline: 0px solid transparent;
+}
+.modal-form-comment::placeholder{
+    color: rgba(46, 47, 66, 0.40);
 }
 .modal-form-comment:focus{
     border-color: #4D5AE5;
+}
+.modal-form-checkbox-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+.review-form-own-checkbox{ 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+   border:  1px solid rgba(46, 47, 66, 0.40);
+    cursor: pointer;
+    margin-right: 8px;
+}
+.checkbox-police:checked+ 
+.checkbox-label> 
+.review-form-own-checkbox { 
+    background-color: #4D5AE5;
+    border: #4D5AE5;
+}
+.checkbox-police:focus+.checkbox-label>
+.review-form-own-checkbox{
+    outline: 1px solid #4D5AE5 ;
+}
+.review-form-own-checkbox-icon{
+fill: white;
+}
+.checkbox-police:checked+ .checkbox-label>
+.review-form-own-checkbox-icon{
+fill:white;
+}
+.accent-color{
+    color: #4D5AE5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+.checkbox-label{
+color:  #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+.modal-submit-buttom{
+   width: 173px;
+   height: 60px;
+   display: inline-flex;
+   padding: 16px 32px;
+   justify-content: center;
+   border-radius: 4px;
+   background: #4D5AE5;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
