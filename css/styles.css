@@ -673,7 +673,7 @@ fill: #4D5AE5;
     width: 16px;
     height: 16px;
     border-radius: 2px;
-  
+    border: 1px solid rgba(46, 47, 66, 0.40);
     cursor: pointer;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -684,8 +684,8 @@ fill: #4D5AE5;
 .checkbox-police:checked+ 
 .checkbox-label> 
 .review-form-own-checkbox { 
-    background-color:#4D5AE5;
-    fill:#F4F4FD;
+    background-color: #4D5AE5;
+    fill: #F4F4FD;
 }
 .checkbox-police:focus+.checkbox-label>
 .review-form-own-checkbox{
