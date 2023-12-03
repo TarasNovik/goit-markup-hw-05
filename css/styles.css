@@ -512,7 +512,7 @@ background: #404BBF;
     transition: opacity 250ms linear, visibility 250ms linear;
 }
 .backdrop.is-open{
-    opacity: 1;
+    opacity: 0;
     visibility: visible;
     pointer-events: auto;
 }
