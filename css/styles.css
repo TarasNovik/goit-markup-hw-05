@@ -542,7 +542,7 @@ z-index: 999;}
     pointer-events: auto;
 }
 /* modal window stiles */
-.modal { 
+.modal{ 
     position: absolute;
     top: 50%;
     left: 50%;
