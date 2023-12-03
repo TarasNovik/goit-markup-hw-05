@@ -521,7 +521,7 @@ background: #404BBF;
     margin-left: 16px;
 }
         /* backdrop styles */
-.backdrop { z-index: 999;
+.backdrop{ z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
