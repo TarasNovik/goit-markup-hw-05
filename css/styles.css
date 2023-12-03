@@ -457,7 +457,8 @@ img{
     margin-bottom: 16px;
 }
 .modal-footer-form{
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .subscribe-input{
