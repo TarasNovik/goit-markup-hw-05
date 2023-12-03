@@ -1,4 +1,4 @@
-body{ position: relative;
+body{ 
     width: 1440px;
     background-color:#fff;
     font-family: Roboto,sans-serif;
@@ -446,6 +446,7 @@ img{
     width: 453px;
     height: 80px;
     margin-left: 80px;
+    align-items: end;
 }
 .modal-footer-subscribe-label{
     color:  #FFF;
@@ -498,6 +499,9 @@ img{
 .subscribe-buttom:hover {
 background: #404BBF;
 }
+.subscribe-buttom-icon{
+    fill: #FFF;
+}
         /* backdrop styles */
 .backdrop { z-index: 9999;
     position: fixed;
@@ -512,7 +516,7 @@ background: #404BBF;
     transition: opacity 250ms linear, visibility 250ms linear;
 }
 .backdrop.is-open{
-    opacity: 0;
+    opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
