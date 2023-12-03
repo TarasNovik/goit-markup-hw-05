@@ -527,8 +527,7 @@ background: #404BBF;
 position: fixed;
 top: 0;
 left: 0;
-width: 100%;
-height: 100%;
+
 background-color: rgba(46, 47, 66, 0.4);
 opacity: 0;
 visibility: hidden;
@@ -695,7 +694,6 @@ fill: #F4F4FD;
 }
 .review-form-own-checkbox-icon{
 fill: #f4f4fd;
-
 }
 
 .accent-color{
