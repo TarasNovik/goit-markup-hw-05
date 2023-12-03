@@ -684,8 +684,8 @@ fill: #4D5AE5;
 .checkbox-police:checked+ 
 .checkbox-label> 
 .review-form-own-checkbox { 
-    background-color: #4D5AE5;
-    border: #4D5AE5;
+    background-color:#4D5AE5;
+    fill:#F4F4FD;
 }
 .checkbox-police:focus+.checkbox-label>
 .review-form-own-checkbox{
