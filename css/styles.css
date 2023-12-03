@@ -475,6 +475,11 @@ img{
     border-radius: 4px;
     border: 1px solid  #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    outline: 0px solid transparent;
+    transition: border-color 250ms linear;
+}
+.modal-subscribe-input-email:focus{
+border-color: #4D5AE5;
 }
 .submit-button{
     align-items: end;
@@ -503,7 +508,7 @@ background: #404BBF;
     fill: #FFF;
 }
         /* backdrop styles */
-.backdrop { z-index: 9999;
+.backdrop { z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
