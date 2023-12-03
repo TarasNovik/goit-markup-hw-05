@@ -1,4 +1,4 @@
-body{ position: relative;
+body{ 
     width: 1440px;
     background-color:#fff;
     font-family: Roboto,sans-serif;
@@ -372,6 +372,7 @@ img{
     }
 /* footer */
 .footer{ 
+   
     background-color:#2e2f42; 
     padding: 100px 0;
     }
@@ -420,8 +421,9 @@ img{
 }
 .logo-p {width: 264px;
     margin-right:120px ;}
-.footer-k {
+.container-footer-k {
     display: flex;
+    flex-direction: row;
     align-items: baseline;}
 
 .elips-foot:focus,
