@@ -485,7 +485,6 @@ img{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-
     width: 165px;
     height: 48px;
     display: inline-flex;
@@ -513,7 +512,7 @@ background: #404BBF;
     transition: opacity 250ms linear, visibility 250ms linear;
 }
 .backdrop.is-open{
-    opacity: 0;
+    opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
