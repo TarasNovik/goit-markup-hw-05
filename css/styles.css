@@ -598,7 +598,9 @@ cursor: pointer;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
 }
-
+.texteria-form-fild-wrapper{
+    margin-bottom: 16px;
+}
 .form-text{
     color:  #2E2F42;
     text-align: center;
