@@ -442,11 +442,9 @@ img{
 }
 /* mail window */
 .mail-input-window {
-    display: flex;
     width: 453px;
     height: 80px;
     margin-left: 80px;
-    align-items: end;
 }
 .modal-footer-subscribe-text{
     color:  #ffffff;
