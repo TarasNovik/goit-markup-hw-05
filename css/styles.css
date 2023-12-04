@@ -523,7 +523,7 @@ background: #404BBF;
     margin-left: 16px;
 }
         /* backdrop styles */
-.backdrop{ width:100%;
+
 position: fixed;
 top: 0;
     left: 0;
