@@ -524,7 +524,7 @@ background: #404BBF;
 }
         /* backdrop styles */
 .backdrop {
-    width: 100%;
+
 position: fixed;
 top: 0;
     left: 0;
